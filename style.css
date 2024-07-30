@@ -1,0 +1,22 @@
+body{
+    background-image: url('https://cdn.dribbble.com/users/2156796/screenshots/19992280/media/7d2ee3a4d15d1f335419059066067694.gif');
+    background-size: cover; 
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+.amountDiv{
+    background-color: rgba(0, 179, 255, 0.392);
+    border-radius: 25px;
+}
+
+.maindiv{
+    backdrop-filter: blur(25px);
+    border-radius: 25px;
+    background-color: rgba(0, 162, 199, 0.378);
+}
+
+.table{
+    border-radius: 25px !important;
+}
