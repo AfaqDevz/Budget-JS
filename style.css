@@ -4,19 +4,50 @@ body{
     height: 100vh;
     padding:0;
     margin:0;
+    font-family: sans-serif;
 }
 
 .amountDiv{
-    background-color: rgba(0, 179, 255, 0.392);
+    background-color: rgba(0, 115, 255, 0.9);
     border-radius: 25px;
 }
 
 .maindiv{
-    backdrop-filter: blur(25px);
     border-radius: 25px;
-    background-color: rgba(0, 162, 199, 0.378);
+    width: 70vh;
+}
+
+.budgetDiv{
+    background-color: rgba(0, 179, 255, 0.8);
+    border-radius: 25px;
+}
+
+.productDiv{
+    background-color: rgba(0, 179, 255, 0.8);
+    border-radius: 25px;
+}
+
+.tableDiv{
+    background-color: #dff7fcb5;
+    border-radius: 25px !important;
 }
 
 .table{
     border-radius: 25px !important;
+}
+
+.maintable{
+    border-radius: 25px !important;
+
+}
+
+.table-info{
+    border-radius: 25px !important;
+}
+
+#alertdiv{
+    position: fixed;
+    width: 50vh !important;
+    visibility: hidden;
+    border-radius: 25px;
 }
